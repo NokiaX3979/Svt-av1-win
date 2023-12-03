@@ -26,12 +26,12 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Visual Studio shell
-  # You may pin to the exact commit or the version.
-  # uses: egor-tensin/vs-shell@9a932a62d05192eae18ca370155cf877eecc2202
-  uses: egor-tensin/vs-shell@v2
-  with:
-    # Target architecture
-    arch: x64 # optional, default is x64
+        # You may pin to the exact commit or the version.
+        # uses: egor-tensin/vs-shell@9a932a62d05192eae18ca370155cf877eecc2202
+        uses: egor-tensin/vs-shell@v2
+        with:
+        # Target architecture
+        arch: x64 # optional, default is x64
           
       
       # Runs a single command using the runners shell
